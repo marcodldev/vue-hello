@@ -15,10 +15,10 @@
 
     <div id="root">
 
-        <div class="container bg-black text-light">
-            <h1 class="text-center text-yellow p-4">{{ message }}</h1>
+        <div :class="innrootdivclasse">
+            <h1 :class="h1classe">{{ message }}</h1>
 
-            <div class="border border-5">
+            <div :class="imgclasse">
                 <img :src="img" alt="">
             </div>
         </div>
